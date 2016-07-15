@@ -1,4 +1,9 @@
+# Temp Editor Files
 *~
+
+# Bazel Out
 bazel-*
-.idea
 .bazelrc
+
+# IntelliJ
+.idea
