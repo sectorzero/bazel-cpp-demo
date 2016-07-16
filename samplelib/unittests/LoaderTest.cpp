@@ -1,4 +1,5 @@
-#include "loader/loader.h"
+#include "samplelib/loader.h"
+
 #include <gtest/gtest.h>
 
 TEST(LoaderTest, BasicSanity) {

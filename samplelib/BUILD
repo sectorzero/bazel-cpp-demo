@@ -1,5 +1,5 @@
 cc_library (
-    name = "loader",
+    name = "samplelib",
     srcs = [
         "loader.cpp",
         ],
