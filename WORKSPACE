@@ -14,3 +14,18 @@ bind(
 	name = "gtest",
 	actual = "@googletest//:gtest_main"
 )
+
+
+# ------------------------------
+# googleflags
+# ------------------------------
+git_repository(
+	name = "googleflags",
+	remote = "https://github.com/gflags/gflags.git",
+	commit = "546819b",
+)
+
+bind(
+	name = "gflags",
+	actual = "@googleflags//:gflags"
+)
